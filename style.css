@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    text-align: center;
+}
+
+.game-container{
+    width: 90vmin;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.moves{
+    height: 20vmin;
+    width: 20vmin;
+    border-radius: 50%;
+    border: none;
+}
+
+.score-container{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.score-box{
+    height: 90%;
+}
+
+.player-name{
+    margin-bottom: 10px;
+}
+
+.selected{
+    border: 2px solid black;
+}
+
+#message1{
+    margin-bottom: 10px;
+}
+#message2{
+    margin-bottom: 20px;
+}
+#reset{
+    height: 50px;
+    width: 100px;
+    font-size: 1.2rem;
+}
+
+#my-score-display,#comp-score-display{
+    font-size: 1.5rem;
+    color: coral;
+}
