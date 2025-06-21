@@ -14,6 +14,7 @@ body{
     margin-bottom: 50px;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .moves{
@@ -21,18 +22,19 @@ body{
     width: 20vmin;
     border-radius: 50%;
     border: none;
+    font-size: 1rem;
 }
 
 .score-container{
-    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 100px;
+    flex-wrap: wrap;
 }
 
 .score-box{
-    height: 90%;
+    height: 100px;
 }
 
 .player-name{
@@ -58,4 +60,12 @@ body{
 #my-score-display,#comp-score-display{
     font-size: 1.5rem;
     color: coral;
+}
+
+@media(max-width:600px){
+    .moves{
+        height: 100px;
+        width: 100px;
+
+    }
 }
